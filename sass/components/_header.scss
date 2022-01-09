@@ -7,20 +7,14 @@
   padding-top: 25px;
   padding-bottom: 25px;
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(26px, 1.19, 700, 0.03em);
   color: var(--main-text-color);
   margin-right: 93px;
 }
 
 .word-first-part {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  @include font(26px, 1.19, 700, 0.03em);
   color: var(--accent-text-color);
 }
 
@@ -60,10 +54,7 @@
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(14px, 1.14, 500, 0.02em);
   color: var(--main-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
@@ -88,10 +79,7 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font(14px, 1.14, 500, 0.02em);
   color: var(--text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

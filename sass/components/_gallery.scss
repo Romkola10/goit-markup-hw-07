@@ -31,9 +31,6 @@
 
 .gallery-titles {
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  @include font(14px, 1.14, 700, 0.03em);
   color: var(--main-title-color);
 }

@@ -14,10 +14,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
+  @include font(18px, 1.56, 400, 0.03em);
   text-align: start;
   padding: 63px 24px;
   color: var(--main-title-color);
@@ -39,18 +36,12 @@
 }
 
 .portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(18px, 2, 700, 0.06em);
   color: var(--main-text-color);
 }
 
 .portfolio-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
+  @include font(16px, 1.87, 400, 0.03em);
   color: var(--text-color);
 }
 
