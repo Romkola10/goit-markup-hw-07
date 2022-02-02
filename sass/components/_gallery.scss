@@ -2,11 +2,11 @@
   padding-bottom: 94px;
 }
 
-.gallery-list {
+.gallery__list {
   display: flex;
 }
 
-.gallery-list-item {
+.gallery__list__item {
   display: flex;
   margin-right: 30px;
   position: relative;
@@ -29,7 +29,7 @@
   justify-content: center;
 }
 
-.gallery-titles {
+.gallery__title {
   font-style: normal;
   @include font(14px, 1.14, 700, 0.03em);
   color: var(--main-title-color);

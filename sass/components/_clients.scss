@@ -3,12 +3,12 @@
   padding-bottom: 94px;
 }
 
-.client-list {
+.clients__list {
   display: flex;
   justify-content: center;
 }
 
-.clients-list-item {
+.clients__list__item {
   width: 170px;
   height: 92px;
   & + & {
@@ -16,7 +16,7 @@
   }
 }
 
-.clients-links-item {
+.clients__list__item__link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -33,11 +33,11 @@
   }
 }
 
-.clients-links-icons {
+.clients__list__item__icon {
   fill: var(--icons-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .clients-links-item:hover &,
-  .clients-links-item:focus & {
+  .clients__list__item__link:hover &,
+  .clients__list__item__link:focus & {
     fill: var(--accent-text-color);
   }
 }
