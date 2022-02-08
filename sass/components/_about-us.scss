@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-.about-us__list__item {
+.about-us__item {
   width: 270px;
   margin-right: 30px;
   &:last-child {
@@ -16,19 +16,19 @@
   }
 }
 
-.about-us__list__item__title {
+.about-us__title {
   @include font(14px, 1.14, 700, 0.03em);
   text-transform: uppercase;
   color: var(--main-text-color);
   margin-bottom: 10px;
 }
 
-.about-us__list__item__text {
+.about-us__text {
   @include font(14px, 1.71, 400, 0.03em);
   color: var(--text-color);
 }
 
-.about-us-links-item {
+.about-us__item-box {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;

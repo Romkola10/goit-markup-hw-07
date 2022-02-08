@@ -6,7 +6,7 @@
   display: flex;
 }
 
-.gallery__list__item {
+.gallery__item {
   display: flex;
   margin-right: 30px;
   position: relative;
@@ -17,7 +17,7 @@
   }
 }
 
-.gallery-titles-box {
+.gallery__titles-box {
   display: flex;
   position: absolute;
   width: 100%;
